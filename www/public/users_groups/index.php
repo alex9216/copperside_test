@@ -13,6 +13,9 @@ $APPLICATION->IncludeComponent(
 		'CACHE_TIME' => '36000000',
 		'SEF_MODE' => 'Y',
 		'SEF_FOLDER' => '/users_groups/',
+		'SEF_URL_TEMPLATES' => [
+			'detail' => '#ELEMENT_ID#/'
+		],
 		'SECTION_TITLE' => 'Список групп пользователей'
 	]
 );
